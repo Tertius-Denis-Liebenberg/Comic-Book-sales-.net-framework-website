@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SLD521_FA2Context-Web.config Connection String" description="SLD521_FA2Context Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=SLD521_FA2Context-20220415150138; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|SLD521_FA2Context-20220415150138.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CTU\\2022\\SLD521\\FA\\SLD521\ FA2\\SLD521\ FA2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SLD521_FA2Context']/@connectionString" />
+  </parameter>
+</parameters>

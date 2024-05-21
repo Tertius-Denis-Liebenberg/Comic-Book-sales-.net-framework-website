@@ -1,0 +1,33 @@
+﻿.comicBooks {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: calc(100% - 8rem);
+    padding: 2rem;
+    flex-direction: column;
+}
+
+
+#Book1 {
+    max-width: 200px;
+}
+#Book3 {
+    max-width: 200px;
+}
+
+.InfoContainer {
+    border: 1px solid black;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.image {
+    flex-basis: 40%;
+    float: left;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    float: right;
+}

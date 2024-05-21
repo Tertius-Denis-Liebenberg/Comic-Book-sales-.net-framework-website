@@ -1,0 +1,7 @@
+﻿/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+    height: 40rem;
+    max-width: 80%;
+    margin: 10rem auto auto;
+}

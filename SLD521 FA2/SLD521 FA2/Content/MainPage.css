@@ -1,0 +1,12 @@
+﻿.mainPage {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 8rem);
+    padding: 2rem;
+}
+
+.mainPage img {
+    max-width: 60%;
+}

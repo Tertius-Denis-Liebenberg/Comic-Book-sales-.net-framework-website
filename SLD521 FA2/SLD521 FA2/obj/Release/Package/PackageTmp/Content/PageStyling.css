@@ -1,0 +1,9 @@
+﻿.mainPage {
+    align-content: center;
+    padding-top: 100px;
+}
+
+.MainImage {
+    border-radius: 8px;
+    width: 900px;
+}

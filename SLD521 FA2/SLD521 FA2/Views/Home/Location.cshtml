@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Location";
+}
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+
+    <link rel="stylesheet" href="~/Content/map.css" />
+</head>
+<body>
+    <div class="mainBody">
+        <div style="text-align: center; padding-top: 10px;">
+            <h2>Location</h2>
+            <p>Visit the store closest to you and pick up your favourite comic:</p>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script src="~/Content/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4HkDIB0mc2vKvyHiAKNw2BBbsmbdvX2I&callback=initMap&libraries=&v=weekly&channel=2"/>
+</body>
